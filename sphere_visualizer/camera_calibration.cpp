@@ -48,7 +48,7 @@ int main(int argc, char** argv)
 
     std::vector< std::vector< cv::Point3f > > objectsPoints;
     std::vector< std::vector< cv::Point2f > > imgPoints;
-    cv::TermCriteria criteria(cv::TermCriteria::EPS | cv::TermCriteria::MAX_ITER, 30, 0.001);
+    cv::TermCriteria criteria(cv::TermCriteria::EPS | cv::TermCriteria::MAX_ITER, 5, 0.001);
 
     while(cap.read(frame) && key != 27)
     {
