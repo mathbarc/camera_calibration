@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.7)
 project(sphere_visualizer)
 
 find_package(OpenCV COMPONENTS core highgui imgproc videoio calib3d REQUIRED)
